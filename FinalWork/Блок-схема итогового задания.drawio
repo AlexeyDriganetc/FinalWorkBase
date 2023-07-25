@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2023-07-25T16:33:45.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2526 Yowser/2.5 Safari/537.36" etag="2cbCmVAfS9YQtXUQZd2N" version="21.6.5" type="device">
+  <diagram name="Страница 1" id="_4bzaBuuTGFatj3pcLbr">
+    <mxGraphModel dx="686" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9eH8coecGAt1r1kWurH2-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9eH8coecGAt1r1kWurH2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9eH8coecGAt1r1kWurH2-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="140" as="targetPoint" />
+            <mxPoint x="330" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9eH8coecGAt1r1kWurH2-6" value="Задать элементы массива, строки" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9eH8coecGAt1r1kWurH2-7" value="Преобразовать элементы в массив строк" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9eH8coecGAt1r1kWurH2-9" value="Найти индекс строк в массиве, размерностью более 3х символов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9eH8coecGAt1r1kWurH2-10" value="Сформировать новый массив, только из нужных элементов / удалить из старого массива ненужные элементы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="160" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
