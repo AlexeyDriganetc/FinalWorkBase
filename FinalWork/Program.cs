@@ -16,5 +16,6 @@ Console.WriteLine();
 Console.WriteLine($"Заданный массив");
 Console.WriteLine($"[{string.Join(", ", size)}]");
 
+что то написал
 
 
