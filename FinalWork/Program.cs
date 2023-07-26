@@ -14,13 +14,21 @@ string[] size = Console.ReadLine()!.Split().ToArray();
 Console.WriteLine();
 Console.WriteLine($"Заданный массив");
 Console.WriteLine($"[{string.Join(", ", size)}]");
-int i = 0;
-for (i = 0; i <size.Length; i++)
+int l = 0;
+for (int i = 0; i <size.Length; i++)
 {string n = size[i];
 if (n.Length <= 3)
-  {Console.WriteLine($"{size[i]}");};
-
+  {l++;
+  }
 }
+string[] size_new = new string [l];
+int k = 0;
+for (int m = 0; m <size.Length; m++)
+{string n = size[m];
+if (n.Length <= 3)
+ {size_new[k] = size[m]; k++;}
+}
+
 Console.WriteLine($"Новый массив");
 Console.WriteLine($"[{string.Join(", ", size_new)}]");
 
